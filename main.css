@@ -1,5 +1,5 @@
 body{
-    background: white;
+    background: rgb(111, 229, 250);
 }
 
 .background-white{
@@ -21,7 +21,7 @@ body{
     width: 54px;
     height: 54px;
     left: 50%;
-    background: pink;
+    background: lightgreen;
     border-radius: 5px;
     transform: translateX(-50%);
 }
@@ -35,3 +35,15 @@ body{
     height: 24px;
     transform: translate(-50%, -50%);
 }
+
+.card-outline {
+    border-width: 1px;
+    border-color: #8ac149;
+    background-color: #e8f5e9;
+}
+
+.card-outline img {
+    width: 24px;
+    height: 24px;;
+}
+

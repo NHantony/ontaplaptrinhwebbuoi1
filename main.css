@@ -1,3 +1,37 @@
 body{
     background: white;
 }
+
+.background-white{
+    background: white;
+    border-radius: 5px;
+}
+
+.card{
+    border-width: 0;
+    transition: linear 0.2s;
+}
+
+.card:hover{
+    background: white;
+}
+
+.card-icon{
+    position: relative;
+    width: 54px;
+    height: 54px;
+    left: 50%;
+    background: pink;
+    border-radius: 5px;
+    transform: translateX(-50%);
+}
+
+.card-icon img{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    transform: translate(-50%, -50%);
+}
